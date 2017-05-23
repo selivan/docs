@@ -1,0 +1,40 @@
+= Test book
+
+== Chapter 1 - OSS
+
+Dummy text
+
+[role="xpack"]
+== Chapter 2 - X-Pack
+
+Dummy text
+
+== Chapter 3 - Mixed content
+
+=== Normal section
+
+Dummy text
+
+[role="xpack"]
+=== X-Pack section
+
+More dummy text
+
+[float]
+=== Floated title
+
+Dummy text
+
+[float]
+=== [xpack]#Floated X-Pack title#
+
+Dummy text
+
+Normal term:: Dummy definition
+[xpack]#X-Pack term#:: Dummy definition
+
+[role="xpack"]
+[NOTE]
+===========================
+Some admonition block about X-Pack
+===========================
