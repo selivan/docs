@@ -71,13 +71,13 @@
 	   
 
     <!-- css -->
-    <link href="https://static-www.elastic.co/static/css/main.css?q=230" rel="stylesheet">
+    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=346" rel="stylesheet">
     
     
 
-    <script src="https://static-www.elastic.co/static/js/jquery.min.js?q=230"></script>
-    <script src="https://static-www.elastic.co/static/js/bootstrap.min.js?q=230"></script>
-    <script src="https://static-www.elastic.co/static/js/jquery.cookie.js?q=230"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=346"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=346"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=346"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -122,7 +122,7 @@
 
 
 	
-	<link type="text/css" rel="stylesheet" href="https://static-www.elastic.co/static/css/guide.css?q=230" />
+	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=346" />
 
 
   
@@ -198,7 +198,7 @@
           <div class="navbar-brand" id="elastic">
             <h1>
               <a class="logo-m hidden-sm hidden-md hidden-lg" href="/">
-                <img src="https://static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=230" alt="elastic-logo-mobile">
+                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=346" alt="elastic-logo-mobile">
               </a>
             </h1>
           </div>
@@ -264,7 +264,7 @@
       <div class="navbar-brand hidden-xs" id="elastic">
         <h1>
           <a class="hidden-xs" id="elastic-logo" href="/">
-            <img src="https://static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=230" alt="elastic-logo">
+            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=346" alt="elastic-logo">
           </a>
         </h1>
       </div>
@@ -414,24 +414,24 @@
   </div>
 </div>
 </header>
-<link rel="stylesheet" type="text/css" href="https://static-www.elastic.co/static/css/horizon-swiper.min.css?q=230">
+<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=346">
 <style> 
     
       .m-shortcuts li a.m-search {
-        background: url("https://static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-docs {
-        background: url("https://static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-contact {
-        background: url("https://static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
     
 </style>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/horizon-swiper.min.js?q=230"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=346"></script>
 <script type="text/javascript">
   $(document).ready( function(){
     // if($('#scrollable-pane li').length > 3){
@@ -599,7 +599,7 @@ Not what you want? See the
            
           <a href="request-overrides.html">Request overrides
                »
-            </a></span></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="retries"></a>Retries<a href="https://github.com/elastic/elasticsearch-net/edit/master/docs/client-concepts/connection-pooling/max-retries/respects-max-retry.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>By default, NEST will retry a request as many times as there are nodes in the cluster, that the client knows about.</p><p>Retries still respects the request timeout however, meaning if you have a 100 node cluster
+            </a></span></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="retries"></a>Retries<a href="https://esdocs@github.com/elastic/elasticsearch-net/edit/master/docs/client-concepts/connection-pooling/max-retries/respects-max-retry.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>By default, NEST will retry a request as many times as there are nodes in the cluster, that the client knows about.</p><p>Retries still respects the request timeout however, meaning if you have a 100 node cluster
 and a request timeout of 20 seconds, the client will retry as many times as it can before
 giving up at the request timeout of 20 seconds.</p><p>Retry behaviour can be demonstrated using NEST’s Virtual cluster test framework. In the following
 example, a ten node cluster is defined that always fails on all client calls, except on port 9209</p><div class="pre_wrapper"><pre class="programlisting">var audit = new Auditor(() =&gt; Framework.Cluster
@@ -622,7 +622,7 @@ finally returning a healthy response from the node on port 9209</p><div class="p
         { BadResponse, 9208 },
         { HealthyResponse, 9209 }
     }
-);</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_maximum_number_of_retries"></a>Maximum number of retries<a href="https://github.com/elastic/elasticsearch-net/edit/master/docs/client-concepts/connection-pooling/max-retries/respects-max-retry.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>When you have a 100 node cluster for example, you might want to ensure that retries occur only
+);</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_maximum_number_of_retries"></a>Maximum number of retries<a href="https://esdocs@github.com/elastic/elasticsearch-net/edit/master/docs/client-concepts/connection-pooling/max-retries/respects-max-retry.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>When you have a 100 node cluster for example, you might want to ensure that retries occur only
 a <span class="emphasis"><em>fixed</em></span> number of times. This can be done using <code class="literal">MaximumRetries(n)</code> on <code class="literal">ConnectionSettings</code></p><div class="important admon"><div class="icon"><img alt="Important" src="images/icons/important.png" /></div><div class="admon_content"><p>the actual number of requests is <code class="literal">initial attempt + set number of retries</code></p></div></div><div class="pre_wrapper"><pre class="programlisting">var audit = new Auditor(() =&gt; Framework.Cluster
     .Nodes(10)
     .ClientCalls(r =&gt; r.FailAlways())
@@ -659,7 +659,7 @@ audit = await audit.TraceCall(
         { BadResponse, 9201 },
         { MaxTimeoutReached }
     }
-);</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_maximum_retry_timeout"></a>Maximum retry timeout<a href="https://github.com/elastic/elasticsearch-net/edit/master/docs/client-concepts/connection-pooling/max-retries/respects-max-retry.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>If you set a smaller request timeout you might not want it to also affect the retry timeout.
+);</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="_maximum_retry_timeout"></a>Maximum retry timeout<a href="https://esdocs@github.com/elastic/elasticsearch-net/edit/master/docs/client-concepts/connection-pooling/max-retries/respects-max-retry.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>If you set a smaller request timeout you might not want it to also affect the retry timeout.
 In cases like this, you can configure the <code class="literal">MaxRetryTimeout</code> separately.
 Here we simulate calls taking 3 seconds, a request timeout of 2 seconds and a max retry timeout of 10 seconds.
 We should see 5 attempts to perform this query, testing that our request timeout cuts the query off short and that
@@ -1064,38 +1064,38 @@ audit = await audit.TraceCall(
 <style type="text/css">
 	
     
-		.facebook{background:url("https://static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=230") no-repeat;}
+		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=346") no-repeat;}
     
     
-      .facebook:hover {background:url("https://static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=230")}		
-    
-	
-    
-		.twitter{background:url("https://static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=230") no-repeat;}
-    
-    
-      .twitter:hover {background:url("https://static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=230")}		
+      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=346")}		
     
 	
     
-		.linkedin{background:url("https://static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=230") no-repeat;}
+		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=346") no-repeat;}
     
     
-      .linkedin:hover {background:url("https://static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=230")}		
-    
-	
-    
-		.xing{background:url("https://static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=230") no-repeat;}
-    
-    
-      .xing:hover {background:url("https://static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=230")}		
+      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=346")}		
     
 	
     
-		.youtube{background:url("https://static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=230") no-repeat;}
+		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=346") no-repeat;}
     
     
-      .youtube:hover {background:url("https://static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=230")}		
+      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=346")}		
+    
+	
+    
+		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=346") no-repeat;}
+    
+    
+      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=346")}		
+    
+	
+    
+		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=346") no-repeat;}
+    
+    
+      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=346")}		
     
 	
 </style>
@@ -1127,11 +1127,34 @@ audit = await audit.TraceCall(
 	var suggestionsUrl = "https://search.elastic.co/suggest";	
 	var localeUrl = '{"relative_url_prefix":"/","code":"en-us","url":"/guide_template"}';
 </script>
-<script src="https://static-www.elastic.co/static/js/jquery.autocomplete.js?q=230"></script>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/slick.min.js?q=230"></script>
-<script src="https://static-www.elastic.co/static/js/nav-v5.js?q=230"></script>
-<script src="https://static-www.elastic.co/static/js/script.js?q=230"></script> 
+<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=346"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=346"></script>
+<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=346"></script>
+<script src="https://stag-static-www.elastic.co/static/js/script.js?q=346"></script> 
      
+<script type="text/javascript">
+
+	$('body a[href*=#]:not([href=#])').on('click',function() {
+		var flag=true;
+	      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	          var target = $(this.hash);
+	          target = target.length ? target :$(this.hash);
+	          if (target.length) {
+	            if(flag){
+	              flag=false;
+	              var heightScroll=($('.tertiary-nav.navbar-fixed-top').height())?60:110;
+	              $('html,body').animate({
+	                  scrollTop: target.offset().top - heightScroll
+	                }, 2000, function(){
+	                  flag=true;
+	                });
+	            }                    
+	          }
+	      }
+	    
+	 });
+</script>
+
      <style></style>
      
   

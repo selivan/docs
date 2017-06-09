@@ -71,13 +71,13 @@
 	   
 
     <!-- css -->
-    <link href="https://static-www.elastic.co/static/css/main.css?q=230" rel="stylesheet">
+    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=346" rel="stylesheet">
     
     
 
-    <script src="https://static-www.elastic.co/static/js/jquery.min.js?q=230"></script>
-    <script src="https://static-www.elastic.co/static/js/bootstrap.min.js?q=230"></script>
-    <script src="https://static-www.elastic.co/static/js/jquery.cookie.js?q=230"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=346"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=346"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=346"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -122,7 +122,7 @@
 
 
 	
-	<link type="text/css" rel="stylesheet" href="https://static-www.elastic.co/static/css/guide.css?q=230" />
+	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=346" />
 
 
   
@@ -198,7 +198,7 @@
           <div class="navbar-brand" id="elastic">
             <h1>
               <a class="logo-m hidden-sm hidden-md hidden-lg" href="/">
-                <img src="https://static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=230" alt="elastic-logo-mobile">
+                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=346" alt="elastic-logo-mobile">
               </a>
             </h1>
           </div>
@@ -264,7 +264,7 @@
       <div class="navbar-brand hidden-xs" id="elastic">
         <h1>
           <a class="hidden-xs" id="elastic-logo" href="/">
-            <img src="https://static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=230" alt="elastic-logo">
+            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=346" alt="elastic-logo">
           </a>
         </h1>
       </div>
@@ -414,24 +414,24 @@
   </div>
 </div>
 </header>
-<link rel="stylesheet" type="text/css" href="https://static-www.elastic.co/static/css/horizon-swiper.min.css?q=230">
+<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=346">
 <style> 
     
       .m-shortcuts li a.m-search {
-        background: url("https://static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-docs {
-        background: url("https://static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-contact {
-        background: url("https://static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
     
 </style>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/horizon-swiper.min.js?q=230"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=346"></script>
 <script type="text/javascript">
   $(document).ready( function(){
     // if($('#scrollable-pane li').length > 3){
@@ -596,14 +596,14 @@
            
           <a href="query-dsl.html">Query DSL
                »
-            </a></span></div><div class="chapter"><div class="titlepage"><div><div><h2 class="title"><a id="cluster-allocation-explain"></a>Cluster Allocation Explain API<a href="https://github.com/elastic/elasticsearch/edit/5.4/docs/reference/cluster/allocation-explain.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>The purpose of the cluster allocation explain API is to provide
+            </a></span></div><div class="chapter"><div class="titlepage"><div><div><h2 class="title"><a id="cluster-allocation-explain"></a>Cluster Allocation Explain API<a href="https://esdocs@github.com/elastic/elasticsearch/edit/5.4/docs/reference/cluster/allocation-explain.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>The purpose of the cluster allocation explain API is to provide
 explanations for shard allocations in the cluster.  For unassigned shards,
 the explain API provides an explanation for why the shard is unassigned.
 For assigned shards, the explain API provides an explanation for why the
 shard is remaining on its current node and has not moved or rebalanced to
 another node.  This API can be very useful when attempting to diagnose why
 a shard is unassigned or why a shard continues to remain on its current node
-when you might expect otherwise.</p><h3><a id="_explain_api_request"></a>Explain API Request<a href="https://github.com/elastic/elasticsearch/edit/5.4/docs/reference/cluster/allocation-explain.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>To explain the allocation of a shard, first an index should exist:</p><div class="pre_wrapper"><pre class="programlisting">PUT /myindex</pre></div><p>And then the allocation for shards of that index can be explained:</p><div class="pre_wrapper"><pre class="programlisting">GET /_cluster/allocation/explain
+when you might expect otherwise.</p><h3><a id="_explain_api_request"></a>Explain API Request<a href="https://esdocs@github.com/elastic/elasticsearch/edit/5.4/docs/reference/cluster/allocation-explain.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>To explain the allocation of a shard, first an index should exist:</p><div class="pre_wrapper"><pre class="programlisting">PUT /myindex</pre></div><p>And then the allocation for shards of that index can be explained:</p><div class="pre_wrapper"><pre class="programlisting">GET /_cluster/allocation/explain
 {
   "index": "myindex",
   "shard": 0,
@@ -622,7 +622,7 @@ specified as either the node id or node name.</p><div class="pre_wrapper"><pre c
 }</pre></div><div class="console_widget" data-snippet="snippets/cluster-allocation-explain/2.json"></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO143-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p class="para">
 The node where shard 0 currently has a replica on
 </p></td></tr></table></div><p>You can also have Elasticsearch explain the allocation of the first unassigned
-shard that it finds by sending an empty body for the request:</p><div class="pre_wrapper"><pre class="programlisting">GET /_cluster/allocation/explain</pre></div><div class="console_widget" data-snippet="snippets/cluster-allocation-explain/3.json"></div><h3><a id="_explain_api_response"></a>Explain API Response<a href="https://github.com/elastic/elasticsearch/edit/5.4/docs/reference/cluster/allocation-explain.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>This section includes examples of the cluster allocation explain API response output
+shard that it finds by sending an empty body for the request:</p><div class="pre_wrapper"><pre class="programlisting">GET /_cluster/allocation/explain</pre></div><div class="console_widget" data-snippet="snippets/cluster-allocation-explain/3.json"></div><h3><a id="_explain_api_response"></a>Explain API Response<a href="https://esdocs@github.com/elastic/elasticsearch/edit/5.4/docs/reference/cluster/allocation-explain.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3><p>This section includes examples of the cluster allocation explain API response output
 under various scenarios.</p><p>The API response for an unassigned shard:</p><div class="pre_wrapper"><pre class="programlisting">{
   "index" : "idx",
   "shard" : 0,
@@ -1175,38 +1175,38 @@ The reason the shard cannot be rebalanced to the node, in this case indicating t
 <style type="text/css">
 	
     
-		.facebook{background:url("https://static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=230") no-repeat;}
+		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=346") no-repeat;}
     
     
-      .facebook:hover {background:url("https://static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=230")}		
-    
-	
-    
-		.twitter{background:url("https://static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=230") no-repeat;}
-    
-    
-      .twitter:hover {background:url("https://static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=230")}		
+      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=346")}		
     
 	
     
-		.linkedin{background:url("https://static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=230") no-repeat;}
+		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=346") no-repeat;}
     
     
-      .linkedin:hover {background:url("https://static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=230")}		
-    
-	
-    
-		.xing{background:url("https://static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=230") no-repeat;}
-    
-    
-      .xing:hover {background:url("https://static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=230")}		
+      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=346")}		
     
 	
     
-		.youtube{background:url("https://static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=230") no-repeat;}
+		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=346") no-repeat;}
     
     
-      .youtube:hover {background:url("https://static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=230")}		
+      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=346")}		
+    
+	
+    
+		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=346") no-repeat;}
+    
+    
+      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=346")}		
+    
+	
+    
+		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=346") no-repeat;}
+    
+    
+      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=346")}		
     
 	
 </style>
@@ -1238,11 +1238,34 @@ The reason the shard cannot be rebalanced to the node, in this case indicating t
 	var suggestionsUrl = "https://search.elastic.co/suggest";	
 	var localeUrl = '{"relative_url_prefix":"/","code":"en-us","url":"/guide_template"}';
 </script>
-<script src="https://static-www.elastic.co/static/js/jquery.autocomplete.js?q=230"></script>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/slick.min.js?q=230"></script>
-<script src="https://static-www.elastic.co/static/js/nav-v5.js?q=230"></script>
-<script src="https://static-www.elastic.co/static/js/script.js?q=230"></script> 
+<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=346"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=346"></script>
+<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=346"></script>
+<script src="https://stag-static-www.elastic.co/static/js/script.js?q=346"></script> 
      
+<script type="text/javascript">
+
+	$('body a[href*=#]:not([href=#])').on('click',function() {
+		var flag=true;
+	      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	          var target = $(this.hash);
+	          target = target.length ? target :$(this.hash);
+	          if (target.length) {
+	            if(flag){
+	              flag=false;
+	              var heightScroll=($('.tertiary-nav.navbar-fixed-top').height())?60:110;
+	              $('html,body').animate({
+	                  scrollTop: target.offset().top - heightScroll
+	                }, 2000, function(){
+	                  flag=true;
+	                });
+	            }                    
+	          }
+	      }
+	    
+	 });
+</script>
+
      <style></style>
      
   

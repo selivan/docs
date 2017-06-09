@@ -71,13 +71,13 @@
 	   
 
     <!-- css -->
-    <link href="https://static-www.elastic.co/static/css/main.css?q=230" rel="stylesheet">
+    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=346" rel="stylesheet">
     
     
 
-    <script src="https://static-www.elastic.co/static/js/jquery.min.js?q=230"></script>
-    <script src="https://static-www.elastic.co/static/js/bootstrap.min.js?q=230"></script>
-    <script src="https://static-www.elastic.co/static/js/jquery.cookie.js?q=230"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=346"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=346"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=346"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -122,7 +122,7 @@
 
 
 	
-	<link type="text/css" rel="stylesheet" href="https://static-www.elastic.co/static/css/guide.css?q=230" />
+	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=346" />
 
 
   
@@ -198,7 +198,7 @@
           <div class="navbar-brand" id="elastic">
             <h1>
               <a class="logo-m hidden-sm hidden-md hidden-lg" href="/">
-                <img src="https://static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=230" alt="elastic-logo-mobile">
+                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=346" alt="elastic-logo-mobile">
               </a>
             </h1>
           </div>
@@ -264,7 +264,7 @@
       <div class="navbar-brand hidden-xs" id="elastic">
         <h1>
           <a class="hidden-xs" id="elastic-logo" href="/">
-            <img src="https://static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=230" alt="elastic-logo">
+            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=346" alt="elastic-logo">
           </a>
         </h1>
       </div>
@@ -414,24 +414,24 @@
   </div>
 </div>
 </header>
-<link rel="stylesheet" type="text/css" href="https://static-www.elastic.co/static/css/horizon-swiper.min.css?q=230">
+<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=346">
 <style> 
     
       .m-shortcuts li a.m-search {
-        background: url("https://static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-docs {
-        background: url("https://static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-contact {
-        background: url("https://static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
     
 </style>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/horizon-swiper.min.js?q=230"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=346"></script>
 <script type="text/javascript">
   $(document).ready( function(){
     // if($('#scrollable-pane li').length > 3){
@@ -594,7 +594,7 @@
            
           <a href="search-in-depth.html">深入搜索
                »
-            </a></span></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="merge-process"></a>段合并<a href="https://github.com/elasticsearch-cn/elasticsearch-definitive-guide/edit/cn/075_Inside_a_shard/60_Segment_merging.asciidoc" class="edit_me" title="在 GitHub 上编辑本页" rel="nofollow">编辑</a></h2></div></div></div><p>由于自动刷新流程每秒会创建一个新的段 <a id="id-1.4.13.10.2.1" class="indexterm"></a>
+            </a></span></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="merge-process"></a>段合并<a href="https://esdocs@github.com/elasticsearch-cn/elasticsearch-definitive-guide/edit/cn/075_Inside_a_shard/60_Segment_merging.asciidoc" class="edit_me" title="在 GitHub 上编辑本页" rel="nofollow">编辑</a></h2></div></div></div><p>由于自动刷新流程每秒会创建一个新的段 <a id="id-1.4.13.10.2.1" class="indexterm"></a>
 <a id="id-1.4.13.10.2.2" class="indexterm"></a> ，这样会导致短时间内的段数量暴增。而段数目太多会带来较大的麻烦。
 每一个段都会消耗文件句柄、内存和cpu运行周期。更重要的是，每个搜索请求都必须轮流检查每个段；所以段越多，搜索也就越慢。</p><p>Elasticsearch通过在后台进行段合并来解决这个问题。<a id="id-1.4.13.10.3.1" class="indexterm"></a>小的段被合并到大的段，然后这些大的段再被合并到更大的段。</p><p>段合并的时候会将那些旧的已删除文档<a id="id-1.4.13.10.4.1" class="indexterm"></a>
 <a id="id-1.4.13.10.4.2" class="indexterm"></a>从文件系统中清除。<a id="id-1.4.13.10.4.3" class="indexterm"></a>
@@ -606,7 +606,7 @@
 </li><li class="listitem">
 老的段被删除。
 </li></ul></div><div class="figure"><a id="img-post-merge"></a><p class="title"><strong>图 26. 一旦合并结束，老的段被删除</strong></p><div class="figure-contents"><div class="mediaobject"><img src="images/elas_1111.png" alt="一旦合并结束，老的段被删除" /></div></div></div><br class="figure-break" /><p>合并大的段需要消耗大量的I/O和CPU资源，如果任其发展会影响搜索性能。Elasticsearch在默认情况下会对合并流程进行资源限制，所以搜索仍然
-有足够的资源很好地执行。</p><div class="tip admon"><div class="icon"><img alt="提示" src="images/icons/tip.png" /></div><div class="admon_content"><p>查看 <a class="xref" href="indexing-performance.html#segments-and-merging" title="段和合并">段和合并</a> 来为你的实例获取关于合并调整的建议。</p></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="optimize-api"></a>optimize API<a href="https://github.com/elasticsearch-cn/elasticsearch-definitive-guide/edit/cn/075_Inside_a_shard/60_Segment_merging.asciidoc" class="edit_me" title="在 GitHub 上编辑本页" rel="nofollow">编辑</a></h3></div></div></div><p><code class="literal">optimize</code> API大可看做是 <span class="emphasis"><em>强制合并</em></span> API<a id="id-1.4.13.10.14.2.3" class="indexterm"></a>
+有足够的资源很好地执行。</p><div class="tip admon"><div class="icon"><img alt="提示" src="images/icons/tip.png" /></div><div class="admon_content"><p>查看 <a class="xref" href="indexing-performance.html#segments-and-merging" title="段和合并">段和合并</a> 来为你的实例获取关于合并调整的建议。</p></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="optimize-api"></a>optimize API<a href="https://esdocs@github.com/elasticsearch-cn/elasticsearch-definitive-guide/edit/cn/075_Inside_a_shard/60_Segment_merging.asciidoc" class="edit_me" title="在 GitHub 上编辑本页" rel="nofollow">编辑</a></h3></div></div></div><p><code class="literal">optimize</code> API大可看做是 <span class="emphasis"><em>强制合并</em></span> API<a id="id-1.4.13.10.14.2.3" class="indexterm"></a>
 <a id="id-1.4.13.10.14.2.4" class="indexterm"></a><a id="id-1.4.13.10.14.2.5" class="indexterm"></a><a id="id-1.4.13.10.14.2.6" class="indexterm"></a>
 <a id="id-1.4.13.10.14.2.7" class="indexterm"></a>
 <a id="id-1.4.13.10.14.2.8" class="indexterm"></a>。它会将一个分片强制合并到 <code class="literal">max_num_segments</code> 参数指定大小的段数目。
@@ -971,38 +971,38 @@ optimizing 会阻碍这个进程。不要干扰它！</p></div></div><p>在特�
 <style type="text/css">
 	
     
-		.facebook{background:url("https://static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=230") no-repeat;}
+		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=346") no-repeat;}
     
     
-      .facebook:hover {background:url("https://static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=230")}		
-    
-	
-    
-		.twitter{background:url("https://static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=230") no-repeat;}
-    
-    
-      .twitter:hover {background:url("https://static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=230")}		
+      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=346")}		
     
 	
     
-		.linkedin{background:url("https://static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=230") no-repeat;}
+		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=346") no-repeat;}
     
     
-      .linkedin:hover {background:url("https://static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=230")}		
-    
-	
-    
-		.xing{background:url("https://static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=230") no-repeat;}
-    
-    
-      .xing:hover {background:url("https://static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=230")}		
+      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=346")}		
     
 	
     
-		.youtube{background:url("https://static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=230") no-repeat;}
+		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=346") no-repeat;}
     
     
-      .youtube:hover {background:url("https://static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=230")}		
+      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=346")}		
+    
+	
+    
+		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=346") no-repeat;}
+    
+    
+      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=346")}		
+    
+	
+    
+		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=346") no-repeat;}
+    
+    
+      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=346")}		
     
 	
 </style>
@@ -1034,11 +1034,34 @@ optimizing 会阻碍这个进程。不要干扰它！</p></div></div><p>在特�
 	var suggestionsUrl = "https://search.elastic.co/suggest";	
 	var localeUrl = '{"relative_url_prefix":"/","code":"en-us","url":"/guide_template"}';
 </script>
-<script src="https://static-www.elastic.co/static/js/jquery.autocomplete.js?q=230"></script>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/slick.min.js?q=230"></script>
-<script src="https://static-www.elastic.co/static/js/nav-v5.js?q=230"></script>
-<script src="https://static-www.elastic.co/static/js/script.js?q=230"></script> 
+<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=346"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=346"></script>
+<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=346"></script>
+<script src="https://stag-static-www.elastic.co/static/js/script.js?q=346"></script> 
      
+<script type="text/javascript">
+
+	$('body a[href*=#]:not([href=#])').on('click',function() {
+		var flag=true;
+	      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	          var target = $(this.hash);
+	          target = target.length ? target :$(this.hash);
+	          if (target.length) {
+	            if(flag){
+	              flag=false;
+	              var heightScroll=($('.tertiary-nav.navbar-fixed-top').height())?60:110;
+	              $('html,body').animate({
+	                  scrollTop: target.offset().top - heightScroll
+	                }, 2000, function(){
+	                  flag=true;
+	                });
+	            }                    
+	          }
+	      }
+	    
+	 });
+</script>
+
      <style></style>
      
   

@@ -71,13 +71,13 @@
 	   
 
     <!-- css -->
-    <link href="https://static-www.elastic.co/static/css/main.css?q=230" rel="stylesheet">
+    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=346" rel="stylesheet">
     
     
 
-    <script src="https://static-www.elastic.co/static/js/jquery.min.js?q=230"></script>
-    <script src="https://static-www.elastic.co/static/js/bootstrap.min.js?q=230"></script>
-    <script src="https://static-www.elastic.co/static/js/jquery.cookie.js?q=230"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=346"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=346"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=346"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -122,7 +122,7 @@
 
 
 	
-	<link type="text/css" rel="stylesheet" href="https://static-www.elastic.co/static/css/guide.css?q=230" />
+	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=346" />
 
 
   
@@ -198,7 +198,7 @@
           <div class="navbar-brand" id="elastic">
             <h1>
               <a class="logo-m hidden-sm hidden-md hidden-lg" href="/">
-                <img src="https://static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=230" alt="elastic-logo-mobile">
+                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=346" alt="elastic-logo-mobile">
               </a>
             </h1>
           </div>
@@ -264,7 +264,7 @@
       <div class="navbar-brand hidden-xs" id="elastic">
         <h1>
           <a class="hidden-xs" id="elastic-logo" href="/">
-            <img src="https://static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=230" alt="elastic-logo">
+            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=346" alt="elastic-logo">
           </a>
         </h1>
       </div>
@@ -414,24 +414,24 @@
   </div>
 </div>
 </header>
-<link rel="stylesheet" type="text/css" href="https://static-www.elastic.co/static/css/horizon-swiper.min.css?q=230">
+<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=346">
 <style> 
     
       .m-shortcuts li a.m-search {
-        background: url("https://static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-docs {
-        background: url("https://static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-contact {
-        background: url("https://static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
     
 </style>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/horizon-swiper.min.js?q=230"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=346"></script>
 <script type="text/javascript">
   $(document).ready( function(){
     // if($('#scrollable-pane li').length > 3){
@@ -594,7 +594,7 @@
            
           <a href="dynamic-indices.html">动态更新索引
                »
-            </a></span></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="making-text-searchable"></a>使文本可被搜索<a href="https://github.com/elasticsearch-cn/elasticsearch-definitive-guide/edit/cn/075_Inside_a_shard/20_Making_text_searchable.asciidoc" class="edit_me" title="在 GitHub 上编辑本页" rel="nofollow">编辑</a></h2></div></div></div><p>必须解决的第一个挑战是如何<a id="id-1.4.13.6.2.1" class="indexterm"></a>
+            </a></span></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="making-text-searchable"></a>使文本可被搜索<a href="https://esdocs@github.com/elasticsearch-cn/elasticsearch-definitive-guide/edit/cn/075_Inside_a_shard/20_Making_text_searchable.asciidoc" class="edit_me" title="在 GitHub 上编辑本页" rel="nofollow">编辑</a></h2></div></div></div><p>必须解决的第一个挑战是如何<a id="id-1.4.13.6.2.1" class="indexterm"></a>
 <a id="id-1.4.13.6.2.2" class="indexterm"></a>使文本可被搜索。
 传统的数据库每个字段存储单个值，但这对全文检索并不够。文本字段中的每个单词需要被搜索，对数据库意味着需要单个字段有索引多值(这里指单词)的能力。</p><p>最好的支持 <span class="emphasis"><em>一个字段多个值</em></span> 需求的数据结构<a id="id-1.4.13.6.3.2" class="indexterm"></a>是我们在 <a class="xref" href="inverted-index.html" title="倒排索引">倒排索引</a> 章节中介绍过的 <span class="emphasis"><em>倒排索引</em></span> 。
 倒排索引包含一个有序列表，列表包含所有文档出现过的不重复个体，或称为 <span class="emphasis"><em>词项</em></span> ，对于每一个词项，包含了它所有曾出现过文档的列表。</p><pre class="literallayout">Term  | Doc 1 | Doc 2 | Doc 3 | ...
@@ -607,7 +607,7 @@ Elasticsearch 中的 <span class="emphasis"><em>文档</em></span> 是有字段�
 每个被索引的字段都有自己的倒排索引。</p></div></div><p>这个倒排索引相比特定词项出现过的文档列表，会包含更多其它信息。它会保存每一个词项出现过的文档总数，
 在对应的文档中一个具体词项出现的总次数，词项在文档中的顺序，每个文档的长度，所有文档的平均长度，等等。这些统计信息允许
 Elasticsearch 决定哪些词比其它词更重要，哪些文档比其它文档更重要，这些内容在 <a class="xref" href="relevance-intro.html" title="什么是相关性?">什么是相关性?</a> 中有描述。</p><p>为了能够实现预期功能，倒排索引需要知道集合中的 <span class="emphasis"><em>所有</em></span> 文档，这是需要认识到的关键问题。</p><p>早期的全文检索会为整个文档集合建立一个很大的倒排索引并将其写入到磁盘。
-一旦新的索引就绪，旧的就会被其替换，这样最近的变化便可以被检索到。</p><div class="pagebreak-before section"><div class="titlepage"><div><div><h3 class="title"><a id="_不变性"></a>不变性<a href="https://github.com/elasticsearch-cn/elasticsearch-definitive-guide/edit/cn/075_Inside_a_shard/20_Making_text_searchable.asciidoc" class="edit_me" title="在 GitHub 上编辑本页" rel="nofollow">编辑</a></h3></div></div></div><p>倒排索引被写入磁盘后是 <span class="emphasis"><em>不可改变</em></span> 的:它永远不会修改。<a id="id-1.4.13.6.9.2.2" class="indexterm"></a>
+一旦新的索引就绪，旧的就会被其替换，这样最近的变化便可以被检索到。</p><div class="pagebreak-before section"><div class="titlepage"><div><div><h3 class="title"><a id="_不变性"></a>不变性<a href="https://esdocs@github.com/elasticsearch-cn/elasticsearch-definitive-guide/edit/cn/075_Inside_a_shard/20_Making_text_searchable.asciidoc" class="edit_me" title="在 GitHub 上编辑本页" rel="nofollow">编辑</a></h3></div></div></div><p>倒排索引被写入磁盘后是 <span class="emphasis"><em>不可改变</em></span> 的:它永远不会修改。<a id="id-1.4.13.6.9.2.2" class="indexterm"></a>
 <a id="id-1.4.13.6.9.2.3" class="indexterm"></a>
 不变性有重要的价值：</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
 不需要锁。如果你从来不更新索引，你就不需要担心多进程同时修改数据的问题。
@@ -974,38 +974,38 @@ Elasticsearch 决定哪些词比其它词更重要，哪些文档比其它文档
 <style type="text/css">
 	
     
-		.facebook{background:url("https://static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=230") no-repeat;}
+		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=346") no-repeat;}
     
     
-      .facebook:hover {background:url("https://static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=230")}		
-    
-	
-    
-		.twitter{background:url("https://static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=230") no-repeat;}
-    
-    
-      .twitter:hover {background:url("https://static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=230")}		
+      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=346")}		
     
 	
     
-		.linkedin{background:url("https://static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=230") no-repeat;}
+		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=346") no-repeat;}
     
     
-      .linkedin:hover {background:url("https://static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=230")}		
-    
-	
-    
-		.xing{background:url("https://static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=230") no-repeat;}
-    
-    
-      .xing:hover {background:url("https://static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=230")}		
+      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=346")}		
     
 	
     
-		.youtube{background:url("https://static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=230") no-repeat;}
+		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=346") no-repeat;}
     
     
-      .youtube:hover {background:url("https://static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=230")}		
+      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=346")}		
+    
+	
+    
+		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=346") no-repeat;}
+    
+    
+      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=346")}		
+    
+	
+    
+		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=346") no-repeat;}
+    
+    
+      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=346")}		
     
 	
 </style>
@@ -1037,11 +1037,34 @@ Elasticsearch 决定哪些词比其它词更重要，哪些文档比其它文档
 	var suggestionsUrl = "https://search.elastic.co/suggest";	
 	var localeUrl = '{"relative_url_prefix":"/","code":"en-us","url":"/guide_template"}';
 </script>
-<script src="https://static-www.elastic.co/static/js/jquery.autocomplete.js?q=230"></script>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/slick.min.js?q=230"></script>
-<script src="https://static-www.elastic.co/static/js/nav-v5.js?q=230"></script>
-<script src="https://static-www.elastic.co/static/js/script.js?q=230"></script> 
+<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=346"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=346"></script>
+<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=346"></script>
+<script src="https://stag-static-www.elastic.co/static/js/script.js?q=346"></script> 
      
+<script type="text/javascript">
+
+	$('body a[href*=#]:not([href=#])').on('click',function() {
+		var flag=true;
+	      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	          var target = $(this.hash);
+	          target = target.length ? target :$(this.hash);
+	          if (target.length) {
+	            if(flag){
+	              flag=false;
+	              var heightScroll=($('.tertiary-nav.navbar-fixed-top').height())?60:110;
+	              $('html,body').animate({
+	                  scrollTop: target.offset().top - heightScroll
+	                }, 2000, function(){
+	                  flag=true;
+	                });
+	            }                    
+	          }
+	      }
+	    
+	 });
+</script>
+
      <style></style>
      
   

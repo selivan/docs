@@ -71,13 +71,13 @@
 	   
 
     <!-- css -->
-    <link href="https://static-www.elastic.co/static/css/main.css?q=230" rel="stylesheet">
+    <link href="https://stag-static-www.elastic.co/static/css/main.css?q=346" rel="stylesheet">
     
     
 
-    <script src="https://static-www.elastic.co/static/js/jquery.min.js?q=230"></script>
-    <script src="https://static-www.elastic.co/static/js/bootstrap.min.js?q=230"></script>
-    <script src="https://static-www.elastic.co/static/js/jquery.cookie.js?q=230"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.min.js?q=346"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/bootstrap.min.js?q=346"></script>
+    <script src="https://stag-static-www.elastic.co/static/js/jquery.cookie.js?q=346"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -122,7 +122,7 @@
 
 
 	
-	<link type="text/css" rel="stylesheet" href="https://static-www.elastic.co/static/css/guide.css?q=230" />
+	<link type="text/css" rel="stylesheet" href="https://stag-static-www.elastic.co/static/css/guide.css?q=346" />
 
 
   
@@ -198,7 +198,7 @@
           <div class="navbar-brand" id="elastic">
             <h1>
               <a class="logo-m hidden-sm hidden-md hidden-lg" href="/">
-                <img src="https://static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=230" alt="elastic-logo-mobile">
+                <img src="https://stag-static-www.elastic.co/assets/bltd5ac38b4549d53de/elastic-logo-mobile (1).svg?q=346" alt="elastic-logo-mobile">
               </a>
             </h1>
           </div>
@@ -264,7 +264,7 @@
       <div class="navbar-brand hidden-xs" id="elastic">
         <h1>
           <a class="hidden-xs" id="elastic-logo" href="/">
-            <img src="https://static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=230" alt="elastic-logo">
+            <img src="https://stag-static-www.elastic.co/assets/blt6050efb80ceabd47/elastic-logo (2).svg?q=346" alt="elastic-logo">
           </a>
         </h1>
       </div>
@@ -414,24 +414,24 @@
   </div>
 </div>
 </header>
-<link rel="stylesheet" type="text/css" href="https://static-www.elastic.co/static/css/horizon-swiper.min.css?q=230">
+<link rel="stylesheet" type="text/css" href="https://stag-static-www.elastic.co/static/css/horizon-swiper.min.css?q=346">
 <style> 
     
       .m-shortcuts li a.m-search {
-        background: url("https://static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt7b9c4fe6528dc4ef/m-search-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-docs {
-        background: url("https://static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt44d8b7530a76d01c/m-guide-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
       .m-shortcuts li a.m-contact {
-        background: url("https://static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=230") no-repeat scroll center center rgba(0, 0, 0, 0);
+        background: url("https://stag-static-www.elastic.co/assets/blt878040795c9d083b/m-contact-icon.png?q=346") no-repeat scroll center center rgba(0, 0, 0, 0);
         background-size: contain;}
     
     
 </style>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/horizon-swiper.min.js?q=230"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/horizon-swiper.min.js?q=346"></script>
 <script type="text/javascript">
   $(document).ready( function(){
     // if($('#scrollable-pane li').length > 3){
@@ -594,14 +594,14 @@
            
           <a href="_operators.html">Operators
                »
-            </a></span></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="casting"></a>Casting<a href="https://github.com/elastic/elasticsearch/edit/master/docs/painless/painless-types.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>Casting is the conversion of one type to another. Implicit casts are casts that
+            </a></span></div><div class="section"><div class="titlepage"><div><div><h2 class="title"><a id="casting"></a>Casting<a href="https://esdocs@github.com/elastic/elasticsearch/edit/master/docs/painless/painless-types.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h2></div></div></div><p>Casting is the conversion of one type to another. Implicit casts are casts that
 occur automatically, such as during an assignment operation. Explicit casts are
 casts where you use the casting operator to explicitly convert one type to
 another. This is necessary during operations where the cast cannot be inferred.</p><p>To cast to a new type, precede the expression by the new type enclosed in
 parentheses, for example
 <code class="literal">(int)x</code>.</p><p>The following sections specify the implicit casts that can be performed and the
 explicit casts that are allowed. The only other permitted cast is casting
-a single character <code class="literal">String</code> to a <code class="literal">char</code>.</p><p><span class="strong emphasis"><strong>Grammar:</strong></span></p><div class="pre_wrapper"><pre class="programlisting">cast: '(' TYPE ')' expression</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="numeric-casting"></a>Numeric Casting<a href="https://github.com/elastic/elasticsearch/edit/master/docs/painless/painless-types.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The following table shows the allowed implicit and explicit casts between
+a single character <code class="literal">String</code> to a <code class="literal">char</code>.</p><p><span class="strong emphasis"><strong>Grammar:</strong></span></p><div class="pre_wrapper"><pre class="programlisting">cast: '(' TYPE ')' expression</pre></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="numeric-casting"></a>Numeric Casting<a href="https://esdocs@github.com/elastic/elasticsearch/edit/master/docs/painless/painless-types.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>The following table shows the allowed implicit and explicit casts between
 numeric types. Read the table by row. To find out if you need to explicitly
 cast from type A to type B, find the row for type A and scan across to the
 column for type B.</p><div class="important admon"><div class="icon"><img alt="Important" src="images/icons/important.png" /></div><div class="admon_content"><p>Explicit casts between numeric types can result in some data loss. A
@@ -617,7 +617,7 @@ byte d = a;           // ERROR: Casting an int to a byte requires an explicit
                       //   cast
 double e = (double)a; // Explicitly cast int variable a to a double and assign
                       //   it to the double variable e. The explicit cast is
-                      //   allowed, but it is not necessary.</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="reference-casting"></a>Reference Casting<a href="https://github.com/elastic/elasticsearch/edit/master/docs/painless/painless-types.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>A reference type can be implicitly cast to another reference type as long as
+                      //   allowed, but it is not necessary.</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="reference-casting"></a>Reference Casting<a href="https://esdocs@github.com/elastic/elasticsearch/edit/master/docs/painless/painless-types.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>A reference type can be implicitly cast to another reference type as long as
 the type being cast <span class="emphasis"><em>from</em></span> is a descendant of the type being cast <span class="emphasis"><em>to</em></span>.  A
 reference type can be explicitly cast <span class="emphasis"><em>to</em></span> if the type being cast to is a
 descendant of the type being cast <span class="emphasis"><em>from</em></span>.</p><p><span class="strong emphasis"><strong>Examples:</strong></span></p><div class="pre_wrapper"><pre class="programlisting">List x;                        // Declare List variable x
@@ -634,7 +634,7 @@ y = x;                         // ERROR: List x cannot be implicitly cast to
 Map m = y;                     // ERROR: Cannot implicitly or explicitly cast [2]
                                //   an ArrayList to a Map, no relationship
                                //   exists between the two types.</pre></div><p>[1] <code class="literal">ArrayList</code> is a descendant of the <code class="literal">List</code> type.
-[2] <code class="literal">Map</code> is unrelated to the <code class="literal">List</code> and <code class="literal">ArrayList</code> types.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="def-type-casting"></a>def Type Casting<a href="https://github.com/elastic/elasticsearch/edit/master/docs/painless/painless-types.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>All primitive and reference types can always be implicitly cast to
+[2] <code class="literal">Map</code> is unrelated to the <code class="literal">List</code> and <code class="literal">ArrayList</code> types.</p></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="def-type-casting"></a>def Type Casting<a href="https://esdocs@github.com/elastic/elasticsearch/edit/master/docs/painless/painless-types.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>All primitive and reference types can always be implicitly cast to
 <code class="literal">def</code>. While it is possible to explicitly cast to <code class="literal">def</code>, it is not necessary.</p><p>However, it is not always possible to implicitly cast a <code class="literal">def</code> to other
 primitive and reference types. An explicit cast is required if an explicit
 cast would normally be required between the non-def types.</p><p><span class="strong emphasis"><strong>Examples:</strong></span></p><div class="pre_wrapper"><pre class="programlisting">def x;          // Declare def variable x and set it to null
@@ -645,7 +645,7 @@ double a = x;   // Declare double variable y and set it to def variable x,
 int b = x;      // ERROR: Results in a run-time error because an explicit cast is
                 //   required to cast from a double to an int
 int c = (int)x; // Declare int variable c, explicitly cast def variable x to an
-                //   int, and assign x to c</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="boxing-unboxing"></a>Boxing and Unboxing<a href="https://github.com/elastic/elasticsearch/edit/master/docs/painless/painless-types.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>Boxing is where a cast is used to convert a primitive type to its corresponding
+                //   int, and assign x to c</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="boxing-unboxing"></a>Boxing and Unboxing<a href="https://esdocs@github.com/elastic/elasticsearch/edit/master/docs/painless/painless-types.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>Boxing is where a cast is used to convert a primitive type to its corresponding
 reference type. Unboxing is the reverse, converting a reference type to the
 corresponding primitive type.</p><p>There are two places Painless performs implicit boxing and unboxing:</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem">
 When you call methods, Painless automatically boxes and unboxes arguments
@@ -660,7 +660,7 @@ reference type API supports methods that can do that. However, under normal
 circumstances this should not be necessary.</p><p><span class="strong emphasis"><strong>Examples:</strong></span></p><div class="pre_wrapper"><pre class="programlisting">Integer x = 1;               // ERROR: not a legal implicit cast
 Integer y = (Integer)1;      // ERROR: not a legal explicit cast
 int a = new Integer(1);      // ERROR: not a legal implicit cast
-int b = (int)new Integer(1); // ERROR: not a legal explicit cast</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="promotion"></a>Promotion<a href="https://github.com/elastic/elasticsearch/edit/master/docs/painless/painless-types.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>Promotion is where certain operations require types to be either a minimum
+int b = (int)new Integer(1); // ERROR: not a legal explicit cast</pre></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="promotion"></a>Promotion<a href="https://esdocs@github.com/elastic/elasticsearch/edit/master/docs/painless/painless-types.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>Promotion is where certain operations require types to be either a minimum
 numerical type or for two (or more) types to be equivalent.
 The documentation for each operation that has these requirements
 includes promotion tables that describe how this is handled.</p><p>When an operation promotes a type or types, the resultant type
@@ -1029,38 +1029,38 @@ x + 2.0F    // Add def variable x and the literal float 2.0.
 <style type="text/css">
 	
     
-		.facebook{background:url("https://static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=230") no-repeat;}
+		.facebook{background:url("https://stag-static-www.elastic.co/assets/bltf546ff2e0a8f2de5/facebook.svg?q=346") no-repeat;}
     
     
-      .facebook:hover {background:url("https://static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=230")}		
-    
-	
-    
-		.twitter{background:url("https://static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=230") no-repeat;}
-    
-    
-      .twitter:hover {background:url("https://static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=230")}		
+      .facebook:hover {background:url("https://stag-static-www.elastic.co/assets/bltc24cf11c714ecfc4/facebook-hover.svg?q=346")}		
     
 	
     
-		.linkedin{background:url("https://static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=230") no-repeat;}
+		.twitter{background:url("https://stag-static-www.elastic.co/assets/bltdd9556d6b24e2b85/twitter.svg?q=346") no-repeat;}
     
     
-      .linkedin:hover {background:url("https://static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=230")}		
-    
-	
-    
-		.xing{background:url("https://static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=230") no-repeat;}
-    
-    
-      .xing:hover {background:url("https://static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=230")}		
+      .twitter:hover {background:url("https://stag-static-www.elastic.co/assets/blt90b0372cc07a54d3/twitter-hover.svg?q=346")}		
     
 	
     
-		.youtube{background:url("https://static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=230") no-repeat;}
+		.linkedin{background:url("https://stag-static-www.elastic.co/assets/bltc4a77e0f52ce07f1/linkedin.svg?q=346") no-repeat;}
     
     
-      .youtube:hover {background:url("https://static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=230")}		
+      .linkedin:hover {background:url("https://stag-static-www.elastic.co/assets/blt01ce654380e4ea6c/linkedin-hover.svg?q=346")}		
+    
+	
+    
+		.xing{background:url("https://stag-static-www.elastic.co/assets/bltc6347078dcc9ec76/xing.svg?q=346") no-repeat;}
+    
+    
+      .xing:hover {background:url("https://stag-static-www.elastic.co/assets/bltededebe5f7521a39/xing-hover.svg?q=346")}		
+    
+	
+    
+		.youtube{background:url("https://stag-static-www.elastic.co/assets/blt4982061ce1aebc7f/youtube.svg?q=346") no-repeat;}
+    
+    
+      .youtube:hover {background:url("https://stag-static-www.elastic.co/assets/bltddeb6c6404ae81a5/youtube-hover.svg?q=346")}		
     
 	
 </style>
@@ -1092,11 +1092,34 @@ x + 2.0F    // Add def variable x and the literal float 2.0.
 	var suggestionsUrl = "https://search.elastic.co/suggest";	
 	var localeUrl = '{"relative_url_prefix":"/","code":"en-us","url":"/guide_template"}';
 </script>
-<script src="https://static-www.elastic.co/static/js/jquery.autocomplete.js?q=230"></script>
-<script type="text/javascript" src="https://static-www.elastic.co/static/js/slick.min.js?q=230"></script>
-<script src="https://static-www.elastic.co/static/js/nav-v5.js?q=230"></script>
-<script src="https://static-www.elastic.co/static/js/script.js?q=230"></script> 
+<script src="https://stag-static-www.elastic.co/static/js/jquery.autocomplete.js?q=346"></script>
+<script type="text/javascript" src="https://stag-static-www.elastic.co/static/js/slick.min.js?q=346"></script>
+<script src="https://stag-static-www.elastic.co/static/js/nav-v5.js?q=346"></script>
+<script src="https://stag-static-www.elastic.co/static/js/script.js?q=346"></script> 
      
+<script type="text/javascript">
+
+	$('body a[href*=#]:not([href=#])').on('click',function() {
+		var flag=true;
+	      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	          var target = $(this.hash);
+	          target = target.length ? target :$(this.hash);
+	          if (target.length) {
+	            if(flag){
+	              flag=false;
+	              var heightScroll=($('.tertiary-nav.navbar-fixed-top').height())?60:110;
+	              $('html,body').animate({
+	                  scrollTop: target.offset().top - heightScroll
+	                }, 2000, function(){
+	                  flag=true;
+	                });
+	            }                    
+	          }
+	      }
+	    
+	 });
+</script>
+
      <style></style>
      
   
